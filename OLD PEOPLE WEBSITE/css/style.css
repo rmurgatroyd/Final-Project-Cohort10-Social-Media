@@ -1,0 +1,42 @@
+h1 {
+  font-size: 5em;
+  font-family: "San serif";
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color:#FFFFFF;
+  color: #1D0029;
+}
+h2 {
+  font-size: 3em;
+  font-family: "San serif";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color:#FFFFFF;
+  color:#1D0029;
+}
+nav {
+  .menu {
+    color:#1D0029;
+    font-family: "Dosis";
+    font-size: 2.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+
+
+  button {
+  background-color:white;
+  border: none;
+  color: white;
+  text-decoration-color: 0000E0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}colour: ;
+  size:18px
+}
