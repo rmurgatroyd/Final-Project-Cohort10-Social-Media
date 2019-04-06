@@ -1,0 +1,39 @@
+h1 {
+  font-size: 5em;
+  font-family: "San Serif";
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color:#FFFFFF;
+  color: #1D0029;
+}
+h2 {
+  font-size: 3em;
+  font-family: "San Serif";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color:#FFFFFF;
+  color:#1D0029;
+}
+nav {
+  .menu {
+    color:#1D0029;
+    font-family: "San Serif";
+    font-size: 2.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+
+  }
+
+button {
+  color:0000E0;
+  font-family: sans-serif;
+  Size: 18px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
