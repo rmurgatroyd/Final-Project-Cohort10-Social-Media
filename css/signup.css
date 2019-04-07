@@ -1,0 +1,25 @@
+header{
+  border: 6px solid #1D0029;
+  padding: 1rem;
+}
+h1 {
+  /* display:flex; */
+  font-family: Calibri;
+  font-size: 7rem;
+  display: inline;
+  padding-top: 2rem;
+  padding-left: 0.25rem;
+  /* padding-bottom: 20rem; */
+  padding-right: 8rem;
+  text-align: center;
+  color: #1D0029;
+  /* text-decoration-style: solid; */
+}
+
+main {
+
+    border: 6px solid #1D0029;
+    border-top: 6px none #1D0029;
+    font-family: sans-serif;
+    color: #1D0029;
+}
