@@ -10156,10 +10156,11 @@ label{
 }
 input[type="tel"],input[type="text"], input[type="password"],input[type="email"]  {
   height:50px;
-  width:350px;
+  width:85%;
   margin-top: 0px;
   padding-left: 20px;
   margin-bottom: 10px;
+  border:2px solid #0000E0;
   font-family:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
   font-size: 18px;
 }
