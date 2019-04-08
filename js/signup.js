@@ -1,4 +1,63 @@
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDlPihhKmdaguV2xbEhqlFiF09yQP961Uo",
+    authDomain: "social-media-d150f.firebaseapp.com",
+    databaseURL: "https://social-media-d150f.firebaseio.com",
+    projectId: "social-media-d150f",
+    storageBucket: "social-media-d150f.appspot.com",
+    messagingSenderId: "68817413327"
+  };
+  firebase.initializeApp(config);
+  // This is the connection to the firebase database
+var database = firebase.database();
 
+
+var registerName = database.ref('/register');
+
+registerName.on('value', function (values) {
+
+  values.forEach(function(listItem) {
+
+    var item = listItem.val();
+
+    addItemElementToList(item.name);
+
+  });
+});
+
+
+// Get the input box element from the HTML and
+// return the string value from it
+function getItemNameFromInput(){
+  var inputElement = document.querySelector("input");
+  return inputElement.value;
+}
+
+// This is the callback that gets triggered when a
+// user clicks on the button
+function buttonClickHandler(){
+  var itemName = getItemNameFromInput();
+
+  if (itemName.length > 0) {
+
+    var newItem = {
+      name: itemName,
+    };
+console.log(newItem)
+    registerName.push(newItem);
+
+    clearInput();
+  } else {
+    alert("You didn't enter your name!");
+  }
+}
+
+var button = document.querySelector("#registerbtn");
+button.addEventListener("click", buttonClickHandler)
+
+
+
+//Password strength function
 function validatePassword(password) {
 
     // Do not show anything when the length of password is zero.
