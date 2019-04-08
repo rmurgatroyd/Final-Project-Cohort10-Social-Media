@@ -74,6 +74,13 @@ main {
   padding: 10px;
 }
 
+.para{
+  font-size: 30px;
+  text-align: center;
+  color: #1D0029;
+
+}
+
 h5 {
 display: inline-flex;
 padding-left: 2rem;
