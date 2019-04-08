@@ -17,7 +17,7 @@
 
 <main>
   <button type="button" class="btn btn-primary btn-sm" onclick = "changeTextSize()">Click Here To Make Text larger</button>
-  <button type="button" class="btn btn-secondary btn-sm">Home</button>
+<button type="button" class="btn btn-secondary btn-sm">  <a href ="finalproject.html"> Home </a> </button>
 
   <div id="jumbotron">
     <h3 class="display-4">Practice a sign up form</h3>
@@ -27,14 +27,14 @@
       <form class="" action="#" method="post">
 
           <p class="signup">First Name</p>
-          <input type="text" name="firstname" class="fields" required>
+          <input type="text" name="firstname" class="fields" placeholder="Enter your first name here"  required>
           <p class="signup">Surname</p>
-          <input type="text" name="surname" class="fields" required>
+          <input type="text" name="surname" class="fields" placeholder="Enter your surname here"  required>
           <p class="signup">Email</p>
-          <input type="email" name="email" class="fields" ><br>
+          <input type="email" name="email" class="fields" placeholder="Enter your email here" required ><br>
           <p class="signup">Phone Number</p>
-          <input type="tel" name="phone" class="fields"><br>
-          <p class="signup">Create a new password</p>
+          <input type="tel" name="phone" class="fields" placeholder="Enter your phone number here" required ><br>
+          <p class="signup">Create a new password. </p> <p class = "smallprint">Choose a password of 8 characters or more. A strong password includes at least one lowercase, uppercase, special character and one number.</p>
           <input type="password" name="password" class="fields" minlength="8" onkeyup="validatePassword(this.value);" required><br><span id="msg"></span><br>
           <div class="control-group">
 
