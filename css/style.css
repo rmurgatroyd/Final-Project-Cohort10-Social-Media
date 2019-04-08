@@ -10163,7 +10163,7 @@ label{
 }
 input[type="tel"],input[type="text"], input[type="password"],input[type="email"]  {
   height:50px;
-  width:85%;
+  width:80%;
   margin-top: 0px;
   padding-left: 20px;
   margin-bottom: 10px;
@@ -10204,8 +10204,14 @@ checkbox{
   font-size: 18px;
 }
 
+#gender {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
 .smallprint{
     margin-left: 30px;
-    width: 400px;
+    width: 80%;
     font-size: 14px;
 }
