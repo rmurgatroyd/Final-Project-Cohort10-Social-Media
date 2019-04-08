@@ -1,6 +1,6 @@
-<script>
-function myFunction(selectTag) {
-  var listValue = selectTag.options[selectTag.selectedIndex].text;
-  document.getElementsByClass("jumbotron").style.fontSize = listValue;
+
+  function changeTextSize() {
+
+  document.getElementById("jumbotron").style.fontSize = "24px";
+
 }
-</script>
